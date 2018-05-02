@@ -1,0 +1,434 @@
+/*  css for homework assignment #2 (harder)
+    Responsive Portfolio - no bootstrap, uses media queries
+    Rhonda Johnson Mon-Wed*/
+
+* {
+    overflow: auto;
+    /*box-sizing: border-box;*/
+    /*text-align: center;*/
+}
+
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtfJuFzjmHwsYIkQRHPm6vRujvijw-bHlikvHGVke_l-4ljrT-5g");
+}
+
+
+
+p{
+    color: #777777;
+    font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+hr{
+    clear: both;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Georgia',Times,'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+h1{
+    font-family: 'Georgia',Times,'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+
+#mainContainer{
+    margin-right: 0px;
+}
+
+#headingArea{
+    margin-top: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 0 0 1px 0;    
+    border-bottom: solid;
+    border-bottom-color: #cccccc;
+}
+
+#mainHeader{
+    background-color:#4aaaa5;
+    border-color: #cccccc;
+    border: 10px;
+    border-style: solid;
+    padding-bottom: 5px;
+    width: 30%;
+    margin-left: 200px;
+    text-align: center;   
+    display: inline-block;    
+}
+
+#linkSection{
+    display: inline-block;
+    background-color: #ffffff;
+    margin-left: 275px;
+    padding-top: 35px;
+    padding-bottom: 32px;
+    width: 250px;
+}
+
+#aboutLink{
+    border-right-width: 2px;
+    border-right-color: #777777;
+    border-right-style: solid;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: #777777;
+}
+
+#portfolioLink{
+    border-right-width: 2px;
+    border-right-color: #777777;
+    border-right-style: solid;
+    padding-right: 15px;
+    margin-right: 10px;
+    color: #777777;
+}
+
+#contactLink{
+    color: #777777;
+}
+
+#mainContent{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border: 1px;
+    border-style: solid;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+#imgRhonda{
+    float:left;
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+
+.imageContainer{
+    position: relative;
+    float: left;
+    justify-content: center;
+}
+
+.imageLabel{
+    position: absolute;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    bottom: 40px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 200px;
+}
+    
+#portImage1{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#portImage2{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#portImage3{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#portImage4{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#portImage5{
+    width: 200px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contentHeader{
+    text-align: left;
+    float: left;
+    padding-left: 20px;
+}
+
+#mainFooter{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 20px;     
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+input, 
+label{
+    display:block;
+    clear: both;
+    margin-left: 20px;
+    padding-right: 40px;
+    width: 875px;
+}
+
+#nameContact{
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+#emailContact{
+    clear: both;
+    float:left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+#messageContact{
+    clear: both;
+    float:left;
+    resize: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+    width: 875px;
+}
+
+#submitContact{
+    clear: both;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* media queries */
+
+@media screen and (max-width:980px){
+    
+    input#nameContact,
+    input#emailContact,
+    textarea#messageContact,
+    label{
+        width: 744px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    #mainContainer{
+        width: 980px;
+        margin-right: 0px;
+    }
+
+    #mainHeader{
+        width: 40%;
+        margin-left: 10%;
+        margin-right: 0;
+        border-left: 0px;
+        border-right: 0px;        
+    }
+
+    #headingArea{
+        align-content: center;
+    }
+
+    #linkSection{
+        clear: both;
+        margin-left: 200px;
+        margin-right: auto;
+        border-left: 0;
+        border-right: 0;       
+    }
+
+   #mainContent{
+       width: 80%;
+       margin-right: 10%;
+       margin-left: 10%;
+   }   
+}
+
+
+
+@media screen and (max-width:768px){
+    
+    input#nameContact,
+    input#emailContact,
+    textarea#messageContact,
+    label{
+        width: 574px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    #mainContainer{
+        width: 768px;
+        margin-right: 0px;
+    }
+
+    #mainHeader{
+        width: 40%;
+        margin-left: 10%;
+        margin-right: 0;
+        border-left: 0px;
+        border-right: 0px;        
+    }
+
+    #headingArea{
+        align-content: center;
+    }
+
+    #linkSection{
+        clear: both;
+        margin-left: 100px;
+        margin-right: auto;
+        border-left: 0;
+        border-right: 0;          
+    }
+
+   #mainContent{
+       width: 80%;
+       margin-right: 10%;
+       margin-left: 10%;
+   } 
+}
+
+@media screen and (max-width:640px){
+    
+    input#nameContact,
+    input#emailContact,
+    textarea#messageContact,
+    label{
+        width: 530px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    #mainContainer{
+        width: 640px;
+        margin-right: 0px;
+    }
+
+    #mainHeader{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        border-left: 0px;
+        border-right: 0px;        
+    }
+
+    #headingArea{
+        align-content: center;
+    }
+
+    #linkSection{
+        clear: both;
+        margin-left: 200px;
+        margin-right: auto;
+        border-left: 0;
+        border-right: 0;       
+    }
+
+   #mainContent{
+       width: 568px;
+       margin-right: 35px;
+       margin-left: 35px;
+   }
+
+   #imgRhonda{
+       margin-left: 100px;
+       width: 300px;
+       height: 300px;
+       align-content: center;
+   }
+
+   #paragraph1{
+       clear: both;
+   }
+
+   #portImage1,
+   #portImage2,
+   #portImage3,
+   #portImage4,
+   #portImage5{
+      clear: both;
+      margin-left: 200px;
+   }
+    .portImage{
+        clear: both;
+        width: 300px;
+        height: 200px;       
+        margin-left: auto;
+        margin-right: auto;             
+    }
+    
+    .imageLabel{    
+        margin-left: 201px;
+    }
+
+}
